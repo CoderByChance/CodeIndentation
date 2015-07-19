@@ -18,29 +18,3 @@ The indented code should be same when ported to different platforms/IDE.
 
 Question : What will this program do ?
 Answer : It will add spaces to indent the code
-
-Sample 
-Input :      
-#include<iostream>
-using namespace std;
-
-    int main(){
-    if(1){
-        cout << "In If"<<endl;
-    } else cout << "In else" << endl;
-        
-    return 0;
-    }
-
-Output :
-#include<iostream>
-using namespace std;
-
-int main(){
-    if(1){
-        cout << "In If"<<endl;
-    } else cout << "In else" << endl;
-         
-    return 0;
-}    
-
